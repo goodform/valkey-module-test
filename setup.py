@@ -7,7 +7,7 @@ setup(
     description='Valkey Module Testing Utility',
     url='http://github.com/goodform/valkey-module-test',
     packages=find_packages(),
-    install_requires=['valkey'],
+    install_requires=['redis'],
     classifiers=[
         'Development Status :: 5 - Production/Stable',
         'Intended Audience :: Developers',
